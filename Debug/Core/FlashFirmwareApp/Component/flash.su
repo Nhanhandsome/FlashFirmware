@@ -1,0 +1,5 @@
+../Core/FlashFirmwareApp/Component/flash.c:14:9:flash_erase	8	static
+../Core/FlashFirmwareApp/Component/flash.c:17:10:flash_read	16	static
+../Core/FlashFirmwareApp/Component/flash.c:20:6:flash_write	16	static
+../Core/FlashFirmwareApp/Component/flash.c:23:6:flash_unlock	8	static
+../Core/FlashFirmwareApp/Component/flash.c:26:6:flash_lock	8	static

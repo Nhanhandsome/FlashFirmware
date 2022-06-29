@@ -1,0 +1,2 @@
+../Core/FlashFirmwareApp/Service/utils.c:13:9:byte_to_hex	24	static
+../Core/FlashFirmwareApp/Service/utils.c:29:10:string_to_hex	48	static

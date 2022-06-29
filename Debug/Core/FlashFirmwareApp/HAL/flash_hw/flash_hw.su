@@ -1,0 +1,5 @@
+../Core/FlashFirmwareApp/HAL/flash_hw/flash_hw.c:15:9:flash_hw_erase	24	static
+../Core/FlashFirmwareApp/HAL/flash_hw/flash_hw.c:26:10:flash_hw_read	16	static
+../Core/FlashFirmwareApp/HAL/flash_hw/flash_hw.c:29:6:flash_hw_write	16	static
+../Core/FlashFirmwareApp/HAL/flash_hw/flash_hw.c:32:6:flash_hw_unlock	8	static
+../Core/FlashFirmwareApp/HAL/flash_hw/flash_hw.c:35:6:flash_hw_lock	8	static

@@ -1,0 +1,2 @@
+../Core/FlashFirmwareApp/Service/intelhex.c:13:12:intel_hex_process	32	static
+../Core/FlashFirmwareApp/Service/intelhex.c:33:9:intel_hex_checksum	24	static
