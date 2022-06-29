@@ -26,3 +26,6 @@ void flash_unlock(void){
 void flash_lock(void){
 	flash_hw_lock();
 }
+void jump_app(uint32_t addr){
+	jump_hw_app(addr);
+}

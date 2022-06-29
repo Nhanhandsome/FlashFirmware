@@ -16,7 +16,7 @@ uint32_t flash_read(uint32_t addr);
 void flash_write(uint32_t addr,uint32_t data);
 void flash_unlock(void);
 void flash_lock(void);
-
+void jump_app(uint32_t addr);
 
 
 

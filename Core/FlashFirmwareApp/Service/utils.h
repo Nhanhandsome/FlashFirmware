@@ -12,6 +12,12 @@
 #include "stdio.h"
 #include "stdlib.h"
 
+typedef union{
+	uint32_t word;
+	uint8_t byte[4];
+}word_to_byte_t;
+
+
 uint8_t* string_to_hex(char* data, uint16_t length);
 
 

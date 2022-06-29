@@ -35,3 +35,12 @@ void flash_hw_unlock(void){
 void flash_hw_lock(void){
 	HAL_FLASH_Lock();
 }
+void jump_hw_app(uint32_t addr){
+	HAL_RCC_DeInit();
+	HAL_DeInit();
+	//SCB->SHCSR &= ~( SCB_SHCSR_USGFAULTENA_Msk |SCB_SHCSR_BUSFAULTENA_Msk |SCB_SHCSR_MEMFAULTENA_Msk ) ;
+	__set_MSP(*((volatile uint32_t*) addr));
+	uint32_t JumpAddress = *((volatile uint32_t*) (addr + 4));
+	void (*reset_handler)(void) = (void*)JumpAddress;
+	reset_handler();
+}

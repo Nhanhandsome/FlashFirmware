@@ -1,3 +1,4 @@
+"./Core/FlashFirmwareApp/App/flash_firmware.o"
 "./Core/FlashFirmwareApp/Component/flash.o"
 "./Core/FlashFirmwareApp/HAL/flash_hw/flash_hw.o"
 "./Core/FlashFirmwareApp/Service/intelhex.o"

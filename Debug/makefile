@@ -15,6 +15,7 @@ RM := rm -rf
 -include Core/FlashFirmwareApp/Service/subdir.mk
 -include Core/FlashFirmwareApp/HAL/flash_hw/subdir.mk
 -include Core/FlashFirmwareApp/Component/subdir.mk
+-include Core/FlashFirmwareApp/App/subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)

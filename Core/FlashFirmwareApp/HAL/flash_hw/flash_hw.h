@@ -17,7 +17,7 @@ uint32_t flash_hw_read(uint32_t addr);
 void flash_hw_write(uint32_t addr,uint32_t data);
 void flash_hw_unlock(void);
 void flash_hw_lock(void);
-
+void jump_hw_app(uint32_t addr);
 
 
 #endif /* FLASHFIRMWAREAPP_HAL_FLASH_HW_FLASH_HW_H_ */

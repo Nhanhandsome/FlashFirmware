@@ -1,0 +1,3 @@
+../Core/FlashFirmwareApp/App/flash_firmware.c:11:9:check_new_firmware	8	static
+../Core/FlashFirmwareApp/App/flash_firmware.c:14:6:flash_firmware_process	8	static
+../Core/FlashFirmwareApp/App/flash_firmware.c:22:6:checkout_firmware	16	static

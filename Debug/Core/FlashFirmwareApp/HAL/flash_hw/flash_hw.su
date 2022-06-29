@@ -3,3 +3,4 @@
 ../Core/FlashFirmwareApp/HAL/flash_hw/flash_hw.c:29:6:flash_hw_write	16	static
 ../Core/FlashFirmwareApp/HAL/flash_hw/flash_hw.c:32:6:flash_hw_unlock	8	static
 ../Core/FlashFirmwareApp/HAL/flash_hw/flash_hw.c:35:6:flash_hw_lock	8	static
+../Core/FlashFirmwareApp/HAL/flash_hw/flash_hw.c:38:6:jump_hw_app	32	static,ignoring_inline_asm
